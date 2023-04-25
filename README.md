@@ -27,11 +27,13 @@ First of all, set the variable min_index=0 and then find the smallest element of
 
 Now, the array becomes arr = {1,7,5,3,2,4}
 
+
 -In the second pass of the array -
 
 We increment the min_index by 1 therefore min_index = 1. Now we will find the highest element for the rest of the array which comes out to be 2. Therefore, we will swap 2 with arr[min_index].
 
 Now, the array becomes arr = {1,2,5,3,7,4}
+
 
 -In the third pass of the array -
 
@@ -39,11 +41,13 @@ The value of min_index = 2 and the highest element in the rest of the array come
 
 Now, the array becomes arr = {1,2,3,5,7,4}
 
+
 -In the fourth pass of the array -
 
 The value of min_index = 3 and the highest element in the rest of the array comes out to be 4. Therefore we will swap 4 with arr[min_index]
 
 Now, the array becomes arr = {1,2,3,4,7,5}
+
 
 -In the fifth pass of the array -
 
